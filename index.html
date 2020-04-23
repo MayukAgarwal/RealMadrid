@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
@@ -32,7 +33,7 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-primary text-white text-center" id='masthead'>
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
             <!-- Masthead Heading-->
@@ -45,6 +46,12 @@
             </div>
             <!-- Masthead Subheading-->
             <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+        <div class="color-picker">
+            <div onclick="themePicker(1)" class="box-with-color" style="background-color: #FFB7A1"></div>
+            <div onclick="themePicker(2)" class="box-with-color" style="background-color: #EFBC68"></div>
+            <div onclick="themePicker(3)" class="box-with-color" style="background-color: #5F9595"></div>
+            <div onclick="themePicker(4)" class="box-with-color" style="background-color: #1abc9c"></div>
         </div>
     </header>
     <!-- Portfolio Section-->
