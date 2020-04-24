@@ -10155,7 +10155,7 @@ a.text-dark:focus {
 }
 
 #mainNav .navbar-brand {
-    color: #fff;
+    color: #febe10;
 }
 
 #mainNav .navbar-nav {
@@ -10167,7 +10167,7 @@ a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #1abc9c;
+    color: #febe10;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -10198,14 +10198,14 @@ a.text-dark:focus {
         margin-top: 0;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-        color: #fff;
-        background: #1abc9c;
+        color: #000;
+        background: #febe10;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
-        color: #fff;
-        background: #1abc9c;
+        color: #000;
+        background: #febe10;
     }
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
