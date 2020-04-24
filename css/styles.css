@@ -10106,7 +10106,7 @@ a.text-dark:focus {
 }
 
 .divider-custom .divider-custom-icon {
-    color: #2c3e50 !important;
+    color: #2c3e50;
     font-size: 2rem;
 }
 
@@ -10115,7 +10115,7 @@ a.text-dark:focus {
 }
 
 .divider-custom.divider-light .divider-custom-icon {
-    color: #fff !important;
+    color: #fff;
 }
 
 .btn-xl {

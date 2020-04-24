@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Freelancer v6.0.1 (https://startbootstrap.com/themes/freelancer)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
- */
 (function($) {
     "use strict"; // Start of use strict
 
@@ -83,5 +78,20 @@ function themePicker(selected) {
             break;
         default:
             document.querySelector("#masthead").style.backgroundColor = "#1abc9c";
+    }
+};
+
+// Change Star Color
+function toggleAttributeStar() {
+    let x = document.querySelectorAll(".divider-custom-line");
+    let y = document.getElementsByClassName("star-icon")
+    if (!x[0].getAttribute('style')) {
+        x[0].setAttribute('style', "background-color: #e09082; background-image: linear-gradient(315deg, #e09082 0%, #f8dba4 74%);");
+        x[1].setAttribute('style', "background-color: #e09082; background-image: linear-gradient(315deg, #f8dba4  0%, #e09082 74%);");
+        y[0].setAttribute('style', "color: #f8dba4;");
+    } else {
+        x[0].removeAttribute('style');
+        x[1].removeAttribute('style');
+        y[0].removeAttribute('style');
     }
 };
