@@ -10376,8 +10376,12 @@ form .row:first-child .floating-label-form-group {
 
 .main {
     display: flex;
-    padding: 1em 0;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    color: #febe10;
+    font-size: 1.3rem;
+    font-weight: bold;
     background-color: #00529f;
 }
 
