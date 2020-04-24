@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<management>
+    <teammember>
+        <name>Florentino Pérez Rodríguez</name>
+        <title>President</title>
+        <bio>Florentino Pérez Rodríguez is a Spanish businessman, civil engineer, former politician, and current president of Real Madrid, as well as Chairman and CEO of Grupo ACS, a civil engineering company.</bio>
+    </teammember>
+    <teammember>
+        <name>Fernando Fernández Tapias</name>
+        <title>First Vice President</title>
+        <bio>Fernando Fernández Tapias is the founder of the naval companies Amura SA and Roda SA; He is also the owner of Fernández-Tapias SA (naval, 1991), Conservas Peña SA and Conservas Portonovo SA (dedicated to frozen and canned seafood and fish ), the maritime section of Bureau Veritas SAF (dedicated to quality control) and Travel Sandra's SA, first vice president of Real Madrid Club de Fútbol during the presidencies of Florentino Pérez and was also a director of Unión Fenosa , Viajes Marsáns and Construcciones OHL.</bio>
+    </teammember>
+    <teammember>
+        <name>Eduardo Fernández de Blas</name>
+        <title>Second vice president</title>
+        <bio>Mr. Eduardo Fernández de Blas is on the Board of Directors at Real Madrid Club de Fútbol.</bio>
+    </teammember>
+    <teammember>
+        <name>Enrique Sánchez González</name>
+        <title>Secretary</title>
+        <bio>Mr. Enrique Sánchez González is on the Board of Directors at Real Madrid Club de Fútbol.</bio>
+    </teammember>
+    <teammember>
+        <name>Pedro López Jiménez</name>
+        <title>Third vice president</title>
+        <bio>Pedro Jose López Jiménez is a Spanish businessman, and the vice chairman of Real Madrid football club since 2009</bio>
+    </teammember>
+</management>
