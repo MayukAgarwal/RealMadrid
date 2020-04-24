@@ -127,8 +127,14 @@ function runTheClock() {
 var interval = setInterval(runTheClock, 1000);
 
 var dateParent = document.getElementById('dateTime')
-var displayDate = document.createElement("div"); // Create a <div> element
+var displayDate = document.createElement("div");
 var date = new Date();
 var dateNode = document.createTextNode(date);
 displayDate.appendChild(dateNode);
 dateParent.appendChild(displayDate);
+
+$(function() {
+    $("#accordion").accordion({
+        collapsible: true
+    });
+});
