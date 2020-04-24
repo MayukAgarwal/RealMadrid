@@ -62,6 +62,10 @@
         });
     });
 
+    $(document).mousemove(function(e) {
+        $('#screen').text((e['screenX']) + ' ' + (e['screenY']));
+    });
+
 })(jQuery); // End of use strict
 
 // Change Theme 
@@ -77,7 +81,7 @@ function themePicker(selected) {
             document.querySelector("#masthead").style.backgroundColor = "#5F9595";
             break;
         default:
-            document.querySelector("#masthead").style.backgroundColor = "#1abc9c";
+            document.querySelector("#masthead").style.backgroundColor = "#00529f";
     }
 };
 
